@@ -17,6 +17,7 @@ export interface BuildArgs {
   fresh?: boolean;
   apiUrl: string;
   pageTitle: string;
+  favicon?: string;
   supportOffline?: boolean;
   configUrls: Array<string>;
   configPaths: Array<string>;
@@ -29,6 +30,7 @@ export type BuildConfig = Partial<{
   configPaths: Array<string>;
   defaultLocale: string;
   pageTitle: string;
+  favicon?: string;
   supportOffline: boolean;
   importmap: string;
   routes: string;
@@ -113,6 +115,7 @@ export async function runBuild(args: BuildArgs) {
     configUrls: configUrls,
     defaultLocale: args.defaultLocale || buildConfig.defaultLocale,
     pageTitle: buildConfig.pageTitle || args.pageTitle,
+    favicon: buildConfig.favicon || args.favicon,
     supportOffline: buildConfig.supportOffline ?? args.supportOffline,
     spaPath: buildConfig.spaPath || args.spaPath,
     fresh: args.fresh ?? false,

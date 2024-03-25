@@ -269,14 +269,6 @@ const Login: React.FC<LoginProps> = () => {
             )}
           </form>
         </Tile>
-        <div className={styles['footer']}>
-          <p className={styles['powered-by-txt']}>{t('poweredBy', 'Powered by')}</p>
-          <div>
-            <svg role="img" className={styles['powered-by-logo']}>
-              <use xlinkHref="#omrs-logo-partial-mono"></use>
-            </svg>
-          </div>
-        </div>
       </div>
     );
   }

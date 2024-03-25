@@ -10,6 +10,7 @@ export interface WebpackOptions {
   apiUrl?: string;
   spaPath?: string;
   pageTitle?: string;
+  favicon?: string;
   supportOffline?: boolean;
   configUrls?: Array<string>;
   env?: string;
@@ -35,6 +36,10 @@ export function loadWebpackConfig(options: WebpackOptions = {}) {
 
   if (typeof options.pageTitle === 'string') {
     variables.OMRS_PAGE_TITLE = options.pageTitle;
+  }
+
+  if (typeof options.favicon === 'string') {
+    variables.OMRS_FAVICON = options.favicon;
   }
 
   if (typeof options.addCookie === 'string') {

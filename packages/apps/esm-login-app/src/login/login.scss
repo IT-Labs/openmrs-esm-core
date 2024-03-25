@@ -23,13 +23,6 @@
   max-width: 100%;
 }
 
-.powered-by-txt {
-  @extend .caption01;
-  text-align: center;
-  color: $color-gray-70;
-  color: $text-02;
-}
-
 .need-help {
   display: flex;
   width: 23rem;
@@ -48,11 +41,6 @@
 .link {
   text-decoration-line: none;
   margin-left: 0.5rem;
-}
-
-.powered-by-logo {
-  height: 2.5rem;
-  width: 6.5rem;
 }
 
 .login-card {
@@ -127,10 +115,6 @@
   span {
     order: 2;
   }
-}
-
-.footer {
-  margin-top: 6.75rem;
 }
 
 .loader {
