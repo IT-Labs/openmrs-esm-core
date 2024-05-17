@@ -5,6 +5,7 @@
     "target": "es2015",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
+    "types": ["@testing-library/jest-dom"],
     "strictNullChecks": true,
     "moduleResolution": "node",
     "declaration": true,
