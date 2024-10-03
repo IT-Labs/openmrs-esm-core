@@ -1,0 +1,28 @@
+{
+  "back": "Назад",
+  "change": "Промени",
+  "confirm": "Потврди",
+  "continue": "Продолжи",
+  "error": "Грешка",
+  "errorLoadingLoginLocations": "Грешка при вчитување на локации за најава",
+  "invalidCredentials": "Невалидно корисничко име или лозинка",
+  "loading": "Вчитување",
+  "locationPreferenceAdded": "Избраната локација ќе се користи за вашите следни најави",
+  "locationPreferenceRemoved": "Преференцијата за локација за најава е отстранета",
+  "locationPreferenceUpdated": "Преференцијата за локација за најава е ажурирана",
+  "loggingIn": "Се најавува",
+  "login": "Најава",
+  "Logout": "Одјава",
+  "noResultsToDisplay": "Нема резултати за прикажување",
+  "password": "Лозинка",
+  "rememberLocationForFutureLogins": "Запомни ја мојата локација за идни најави",
+  "removedLoginLocationPreference": "Преференцијата за локација за најава е отстранета.",
+  "searchForLocation": "Пребарај локација",
+  "selectedLocationPreferenceSetMessage": "Можете да ја промените вашата преференција од корисничкото мени",
+  "selectYourLocation": "Одберете ја вашата локација од листата подолу. Користете ја лентата за пребарување за да ја најдете вашата локација.",
+  "submitting": "Поднесување",
+  "username": "Корисничко име",
+  "validValueRequired": "Потребна е валидна вредност",
+  "welcome": "Добредојдовте"
+}
+  
